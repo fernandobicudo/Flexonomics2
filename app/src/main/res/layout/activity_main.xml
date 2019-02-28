@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/resultadoTextoInputEditText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:useDefaultMargins="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tituloGasolinaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:background="@color/colorPrimary"
+        android:includeFontPadding="false"
+        android:padding="@dimen/paddingTitle"
+        android:text="@string/titlePrecoGasolina"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/titleSize" />
+
+    <TextView
+        android:id="@+id/valorGasolinaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/vlGasolinaTextView" />
+
+    <SeekBar
+        android:id="@+id/gasolinaSeekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/seekBarHeight"
+        android:layout_gravity="fill_horizontal"
+        android:max="45"
+        android:min="0"
+        android:progress="0" />
+
+    <TextView
+        android:id="@+id/tituloEtanolTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/background_light"
+        android:layout_gravity="fill_horizontal|top"
+        android:padding="@dimen/paddingTitle"
+        android:text="@string/titlePrecoEtanol"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="@dimen/titleSize" />
+
+    <TextView
+        android:id="@+id/valorEtanolTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/vlGasolinaTextView" />
+
+    <SeekBar
+        android:id="@+id/etanolSeekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/seekBarHeight"
+        android:layout_gravity="fill_horizontal|top|center_vertical"
+        android:max="45"
+        android:min="0"
+        android:progress="0" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/resultadoTextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="top"
+        android:minHeight="100dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/resultadoTextInputEditText"
+            android:layout_width="386dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:hint="@string/hintTextInputLayout"
+            android:textColorHint="@color/colorPrimaryDark" />
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/ilustracaoImageView"
+        android:layout_width="400dp"
+        android:layout_height="251dp"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="top|center" />
+</GridLayout>

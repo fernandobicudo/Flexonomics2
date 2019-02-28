@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hintTextInputLayout">Mejor uso</string>
+    <string name="titlePrecoGasolina">Precio de la gasolina</string>
+    <string name="titlePrecoEtanol">Precio del etanol</string>
+    <string name="vlGasolinaTextView">€$ 0.00</string>
+    <string name="vlEtanolTextView">US$ 0.00</string>
+    <string name="resultGasoline">Gasolina</string>
+    <string name="resultEthanol">Etanol</string>
+</resources>

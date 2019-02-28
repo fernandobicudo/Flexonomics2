@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titlePrecoGasolina">汽油價格</string>
+    <string name="titlePrecoEtanol">乙醇價格</string>
+    <string name="hintTextInputLayout">更好用</string>
+    <string name="vlGasolinaTextView">¥$ 0.0</string>
+    <string name="vlEtanolTextView">US$ 0.0</string>
+    <string name="resultGasoline">汽油</string>
+    <string name="resultEthanol">乙醇</string>
+</resources>
