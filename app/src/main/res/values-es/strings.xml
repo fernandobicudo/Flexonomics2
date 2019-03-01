@@ -4,7 +4,8 @@
     <string name="titlePrecoGasolina">Precio de la gasolina</string>
     <string name="titlePrecoEtanol">Precio del etanol</string>
     <string name="vlGasolinaTextView">€$ 0.00</string>
-    <string name="vlEtanolTextView">US$ 0.00</string>
+    <string name="vlEtanolTextView">€$ 0.00</string>
     <string name="resultGasoline">Gasolina</string>
     <string name="resultEthanol">Etanol</string>
+    <string name="descricao_imagem">Imagen que representa la mejor opción de combustible.</string>
 </resources>

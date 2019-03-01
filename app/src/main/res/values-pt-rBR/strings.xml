@@ -4,8 +4,9 @@
     <string name="titlePrecoGasolina">Preço da Gasolina</string>
     <string name="titlePrecoEtanol">Preço do Etanol</string>
     <string name="hintTextInputLayout">Melhor usar</string>
-    <string name="vlGasolinaTextView">R$ 0.00</string>
-    <string name="vlEtanolTextView">US$ 0.00</string>
+    <string name="vlGasolinaTextView">R$</string>
+    <string name="vlEtanolTextView">R$</string>
     <string name="resultGasoline">Gasolina</string>
     <string name="resultEthanol">Etanol</string>
+    <string name="descricao_imagem">Imagem representando a melhor escolha de combustível.</string>
 </resources>

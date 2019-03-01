@@ -3,8 +3,9 @@
     <string name="titlePrecoGasolina">汽油價格</string>
     <string name="titlePrecoEtanol">乙醇價格</string>
     <string name="hintTextInputLayout">更好用</string>
-    <string name="vlGasolinaTextView">¥$ 0.0</string>
-    <string name="vlEtanolTextView">US$ 0.0</string>
+    <string name="vlGasolinaTextView">¥$</string>
+    <string name="vlEtanolTextView">¥$</string>
     <string name="resultGasoline">汽油</string>
     <string name="resultEthanol">乙醇</string>
+    <string name="descricao_imagem">圖像代表更好的燃料選擇。</string>
 </resources>
